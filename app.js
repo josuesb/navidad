@@ -7,7 +7,7 @@ var url = new URL(url_string);
 var user = url.searchParams.get("a");
 var winner = "Buen intento, <br> vuelva a intentar <br> en navidad";
 console.log(user);
-/*
+
 switch (user) {
   case "1":
     console.log("ari");
@@ -37,7 +37,7 @@ switch (user) {
   default:
     console.log("not found");
 }
-*/
+
 console.log("winner is " + winner);
 
 
